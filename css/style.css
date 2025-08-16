@@ -1,0 +1,117 @@
+:root{
+    --background: #e2d3ef;
+    --border-color: #c7b7fc;
+    --color: #9985f3;
+}
+html,body{
+    padding: 0;
+    margin: 0;
+    font-family: Intel One Mono, Delius;
+    background: var(--background);
+    font-family: Raleway;
+}
+
+/*nav*/
+.button{
+    border: none;
+}
+.button:focus{
+    outline: none;
+    box-shadow: none
+}
+.button .hamburger{
+    width: 1.8rem;
+    transition: transform 0.3s ease-in;
+}
+.button .hamburger:hover{
+    transform: scale(0.8);
+}
+.menu > ul > li > a{
+    font-weight: bold;
+    transition: 0.3s ease-in;
+}
+.menu > ul > li > a:hover{
+    color: var(--color);
+}
+form > .btn-design{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    border-bottom: 2px solid black;
+    border-radius: 0;
+    transition: transform 0.3s ease-in;
+}
+form > .btn-design:hover{
+    transform: scale(0.9);
+}
+.dropdown > .dropdown-menu{
+    width: auto;
+    background-color: transparent;
+    border: none;
+}
+.dropdown > .dropdown-menu > a{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    transition: transform 0.3s ease-in;
+    background-color: transparent;
+}
+.dropdown > .dropdown-menu a:hover{
+    font-weight: bold;
+    border-bottom: 1px solid var(--color);
+    transform: scale(0.9);
+}
+
+/* hero */
+.hero{
+    border-left: 5px solid var(--border-color);
+    border-right: 5px solid var(--border-color);
+    border-top: 5px solid var(--border-color);
+    border-bottom: none;
+    height: 200vh;
+    width: 97%;
+    margin: 70px auto 0 auto;
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: none;
+    position: relative;
+}
+.hero .extra{
+    width: 18%;
+    height: 4.4rem;
+    background: var(--background);
+    position: absolute;
+    right: -4.8px;
+    top: -70px;
+    border-left: 5px solid var(--border-color);
+    border-right: 5px solid var(--border-color);
+    border-top: 5px solid var(--border-color);
+    border-bottom: none;
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+}
+.hero .extra::after, .hero .extra::before{
+    content: "";
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+}
+.extra::after{
+    background-color: transparent;
+    bottom: 0px;
+    left: -16px;
+    border-bottom-right-radius: 0.5rem;
+    box-shadow: 5px 5px var(--background);
+}
+.extra::before{
+    background-color: transparent;
+    bottom: 5px;
+    left: -20px;
+    border-bottom-right-radius: 0.5rem;
+    box-shadow: 4px 4px var(--border-color);
+}
+
+/*main*/
+
+
+/*footer*/
