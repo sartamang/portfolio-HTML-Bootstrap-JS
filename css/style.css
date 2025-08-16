@@ -2,6 +2,7 @@
     --background: #e2d3ef;
     --border-color: #c7b7fc;
     --color: #9985f3;
+    --color-1: #f4ecfe;
 }
 html,body{
     padding: 0;
@@ -12,6 +13,10 @@ html,body{
 }
 
 /*nav*/
+.navbar{
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+}
 .button{
     border: none;
 }
@@ -42,6 +47,10 @@ form > .btn-design{
     border-radius: 0;
     transition: transform 0.3s ease-in;
 }
+form > .btn-design > a{
+    text-decoration: none;
+    color: #000;
+}
 form > .btn-design:hover{
     transform: scale(0.9);
 }
@@ -61,6 +70,7 @@ form > .btn-design:hover{
     font-weight: bold;
     border-bottom: 1px solid var(--color);
     transform: scale(0.9);
+    color: black;
 }
 
 /* hero */
@@ -115,3 +125,52 @@ form > .btn-design:hover{
 
 
 /*footer*/
+.social > h6{
+    font-weight: bold;
+}
+.social-link > a{
+    margin: 0 0 40px 40px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.social-link > a:hover{
+    color: var(--color-1);
+}
+.social-link > a > i{
+    transition: transform 0.3s ease-in;
+}
+.social-link > a > i:hover{
+    transform: scale(1.3);
+}
+.f-logo > h6 > a{
+    text-decoration: none;
+    color: black;
+}
+.f-logo > p{
+    font-size: 16px;
+}
+.f-menu > h6{
+    font-weight: bold;
+}
+.f-menu > p > a{
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--color);
+    transition: 0.3s ease-in-out;
+}
+.f-menu > p > a:hover{
+    border-bottom: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+    padding: 0 20px 5px 0;
+}
+.f-link > p > a{
+    font-size: 30px;
+}
+.f-link > p > a > i{
+    color: var(--color);
+    transition: 0.3s ease-in-out;
+}
+.f-link > p > a > i:hover{
+    color: var(--color-1);
+}
