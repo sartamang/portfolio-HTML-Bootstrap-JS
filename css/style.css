@@ -7,7 +7,6 @@
 html,body{
     padding: 0;
     margin: 0;
-    font-family: Intel One Mono, Delius;
     background: var(--background);
     font-family: Raleway;
 }
@@ -132,9 +131,32 @@ form > .btn-design:hover{
     border-bottom-right-radius: 0.5rem;
     box-shadow: 4px 4px var(--border-color);
 }
+/*hero-content*/
+
+.hero-button{
+    font-size:20px;
+    font-weight: bold;
+    transition: transform 0.3s ease-in;
+    border: none;
+}
+.hero-button > a{
+    border-radius: none;
+    text-decoration: none;
+    color: var(--color);
+}
+.hero-button:hover{
+    transform: scale(0.9);
+    text-shadow: 2px 2px 7px white;
+}
 
 /*main*/
-
+.main{
+    margin-top: 5%;
+}
+#Aboutme{
+    margin-bottom: 10%;
+    font-weight: bolder;
+}
 
 /*footer*/
 .social > h6{
