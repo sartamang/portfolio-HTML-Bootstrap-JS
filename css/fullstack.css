@@ -1,0 +1,18 @@
+:root{
+    --background: #e2d3ef;
+    --border-color: #c7b7fc;
+    --color: #9985f3;
+    --color-1: #f4ecfe;
+}
+.hero > .head{
+    color: var(--color); 
+}
+.hero > .head > h1{
+    font-weight: bold; 
+    font-size: 55px;
+    padding-top: 25px;
+}
+.hero .container{
+    
+    width: auto;
+}
