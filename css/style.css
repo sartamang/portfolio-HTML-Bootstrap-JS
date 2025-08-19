@@ -154,8 +154,80 @@ form > .btn-design:hover{
     margin-top: 5%;
 }
 #Aboutme{
-    margin-bottom: 10%;
+    padding-top: 11%;
+    margin-bottom: 5%;
     font-weight: bolder;
+}
+.a-con h5{
+    font-weight: bold;
+}
+.a-con1 h5{
+    font-weight: bold;
+}
+.a-icon h5{
+    font-weight: bold;
+}
+.a-icon ul li{
+    padding: 1%;
+    list-style: none;
+    line-height: 1.5;
+}
+.a-icon i{
+    font-size: 25px;
+}
+
+#Education{
+    padding-top: 10%;
+    padding-bottom: 2%;
+    font-weight: bolder; 
+}
+.card{
+    background-color: var(--background);
+    height: 100%;
+    border-left: 2px solid var(--border-color);
+    border-right: 2px solid var(--border-color);
+    border-top: none;
+    border-bottom: none;
+    transition: transform 0.3s ease-in;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 2px 5px rgb(161, 161, 161);
+    cursor: pointer;
+}
+.card i{
+    font-size: 25px;
+}
+.card .card-title{
+    color: #000;
+}
+.card ul li{
+    color: var(--color);
+    font-weight: 600;
+}
+#Contact{
+    font-weight: bolder;
+    padding-top: 10%;
+    padding-bottom: 3%;   
+}
+.cont1{
+    border-left: 5px solid var(--color);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.cont .btn{
+    transition: transform 0.3s ease-in;
+    border: 3px solid var(--color);
+    border-top: none;
+    border-bottom: none;
+    border-radius: 25px;
+}
+.cont .btn a{
+    text-decoration: none;
+    color: #000;
+} 
+.cont .btn:hover{
+    transform: scale(0.9);
 }
 
 /*footer*/
