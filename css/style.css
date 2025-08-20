@@ -9,6 +9,7 @@ html,body{
     margin: 0;
     background: var(--background);
     font-family: Raleway;
+    scroll-behavior: smooth;
 }
 
 /*nav*/

@@ -14,6 +14,9 @@
     <!-- Icons -->
     <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
+    <!-- Logos -->
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" >
+
     <!-- Font -->
     <!-- Raleway font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,6 +31,9 @@
     <title>
       portfolio
     </title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../../photos/logo-1.svg" type="image/x-icon">
 </head>
 <body>
     
@@ -114,7 +120,14 @@
         <div class="extra"></div>
 
         <div class="head shadow-sm p-5 mt-5 mx-auto ">
-          <h1><center>CSS - Cascading Style Sheets </center></h1>    
+          <h1>
+          <center>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" width="100px">
+            CSS - Cascading Style Sheets 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" width="100px">
+            <hr style="width: 450px; color: #000;">
+          </center>
+        </h1>    
         </div>
 
         <div class="container h-auto p-5 mt-5  ">
@@ -297,6 +310,44 @@
         </footer>
         <!-- Footer -->
     </footer>
+
+
+
+        <style>
+    /*move page top*/
+    .top-move {
+        position: fixed;
+        right: 20px;
+        bottom: 48px;
+        height: 60px;
+        width: 60px;
+        z-index: 100;
+        text-align: center;
+        background:transparent;
+        padding: 5px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+    }
+
+    .top-move a{
+        color: #9985f3;
+    }
+    </style>
+    <div class="top-move" id="move-top">
+      <a href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 18.75 7.5-7.5 7.5 7.5" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 7.5-7.5 7.5 7.5" />
+        </svg>
+    </a>
+    </div>
+    <script>
+    // scroll functions
+    $(window).scroll(function(e) {
+    $('#move-top')[$(window).scrollTop() <= 150 ? 'addClass' : 'removeClass']('d-none');
+    })
+    </script>
+
 
     <!-- Bootstrap js libraries -->
     <script 

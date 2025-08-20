@@ -13,6 +13,44 @@
     padding-top: 25px;
 }
 .hero .container{
-    
     width: auto;
+}
+.form h1{
+    color: var(--color);
+    margin-bottom: 5%;
+    padding-top: 0px;
+}
+.form input{
+    background: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 270px;
+    height: 35px;
+}
+.form textarea{
+    background: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 270px;
+    height: 100px;
+}
+.form button{
+    border:  3px solid var(--color);
+    border-top: none;
+    border-bottom: none;
+    border-radius: 25px;
+    padding: 1% 5% 1% 5%;
+    width: 130px;
+    background: var(--color-1);
+    transition: transform 0.3s ease-in;
+}
+.form button a{
+    text-decoration: none;
+    color: var(--color);
+    font-weight: 600;
+}
+.form button:hover{
+    transform: scale(0.9);
 }
