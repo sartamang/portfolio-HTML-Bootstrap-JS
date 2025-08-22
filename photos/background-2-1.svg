@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1925.96 1081.61">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#radial-gradient-4);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        mix-blend-mode: color-burn;
+      }
+
+      .cls-2 {
+        fill: url(#radial-gradient-5);
+      }
+
+      .cls-9 {
+        fill: #e2d3ef;
+      }
+
+      .cls-3 {
+        fill: url(#radial-gradient-6);
+      }
+
+      .cls-4 {
+        fill: url(#radial-gradient-7);
+      }
+
+      .cls-5 {
+        fill: url(#radial-gradient-3);
+      }
+
+      .cls-6 {
+        fill: url(#radial-gradient-8);
+      }
+
+      .cls-10 {
+        isolation: isolate;
+      }
+
+      .cls-7 {
+        fill: url(#radial-gradient-2);
+      }
+
+      .cls-8 {
+        fill: url(#radial-gradient);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="522.64" cy="283.09" fx="522.64" fy="283.09" r="332.2" gradientTransform="translate(-106.79 964.28) rotate(-37.85) scale(1.25 .21)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#666"/>
+      <stop offset=".98" stop-color="#fff"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="543.32" cy="1052.64" fx="543.32" fy="1052.64" gradientTransform="translate(-59.08 1436.61) rotate(-37.85) scale(1.71 -.32)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-3" cx="633.48" cy="728.83" fx="633.48" fy="728.83" gradientTransform="translate(75.84 -58.84) rotate(46.89) scale(1.02 .21)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-4" cx="617.97" cy="760.77" fx="617.97" fy="760.77" gradientTransform="translate(-359.4 68.39) rotate(46.89) scale(1.39 -.32)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-5" cx="2785.69" cy="386.42" fx="2785.69" fy="386.42" r="332.2" gradientTransform="translate(505.27 1026.94) rotate(-36.2) scale(.52 .09) skewX(.55)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-6" cx="2198.05" cy="985.44" fx="2198.05" fy="985.44" gradientTransform="translate(525.61 1216.56) rotate(-36.2) scale(.71 -.13) skewX(-.62)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-7" cx="990.72" cy="-2082.09" fx="990.72" fy="-2082.09" r="332.2" gradientTransform="translate(1252.37 -18.54) rotate(45.17) scale(.42 .09) skewX(-.71)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-8" cx="879.18" cy="2588.64" fx="879.18" fy="2588.64" r="332.2" gradientTransform="translate(1066.84 32.54) rotate(45.17) scale(.57 -.13) skewX(.8)" xlink:href="#radial-gradient"/>
+  </defs>
+  <g class="cls-10">
+    <g id="Layer_1" data-name="Layer 1">
+      <rect class="cls-9" x="1.32" width="1924.64" height="1081.61"/>
+    </g>
+    <g id="Layer_2" data-name="Layer 2">
+      <path class="cls-8" d="M798.52,338.16c-99.59,17.97-247.11,92.9-393.62,206.73-146.51,113.84-255.56,238.27-297.58,330.33L798.52,338.16Z"/>
+      <path class="cls-7" d="M945.3,221.81c-52.57,132.21-198.44,306.6-398.81,462.28C346.13,839.78,141.1,938.04,0,956.31L945.3,221.81Z"/>
+      <path class="cls-5" d="M649.12,780.15c-15.47-85.17-82.68-202.83-185.56-312.72-102.88-109.9-215.85-184.7-299.82-205.75l485.38,518.47Z"/>
+      <path class="cls-1" d="M745.97,885.49c-120.67-23.33-279.06-121.99-419.76-272.29C185.51,462.91,97.49,298.36,82.16,176.42l663.81,709.07Z"/>
+      <g>
+        <path class="cls-2" d="M1850.27,84.8c-42.45,7.21-105.34,37.29-167.79,83-62.45,45.7-108.94,95.66-126.85,132.62l294.64-215.61Z"/>
+        <path class="cls-3" d="M1912.84,38.09c-22.41,53.08-84.59,123.09-170,185.59-85.41,62.5-172.81,101.95-232.96,109.28L1912.84,38.09Z"/>
+        <path class="cls-4" d="M1786.58,262.25c-6.6-34.19-35.24-81.43-79.1-125.55-43.86-44.12-92.01-74.15-127.81-82.6l206.9,208.15Z"/>
+        <path class="cls-6" d="M1827.87,304.54c-51.44-9.37-118.96-48.98-178.93-109.31-59.98-60.34-97.5-126.4-104.03-175.35l282.97,284.67Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
