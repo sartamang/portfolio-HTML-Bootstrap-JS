@@ -17,3 +17,19 @@
     
     width: auto;
 }
+/*animations*/
+.bounce1{
+    display: inline-block;
+    animation:  bounce 2s ease-in infinite;
+}
+@keyframes bounce{
+    0%, 50%, 100%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-7px);
+    }
+    75%{
+        transform: translateY(-5px);
+    }
+}

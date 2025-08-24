@@ -132,6 +132,46 @@ form > .btn-design:hover{
     border-bottom-right-radius: 0.5rem;
     box-shadow: 4px 4px var(--border-color);
 }
+
+/*animations*/ 
+.hero .row .slide{
+    
+    animation: slideinleft 1s ease-in 0.8s forwards;
+}
+@keyframes slideinleft{
+    from{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+.bounce{
+    display: inline-block;
+    animation:  bounce 2s ease-in infinite;
+}
+@keyframes bounce{
+    0%, 50%, 100%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-10px);
+    }
+    75%{
+        transform: translateY(-5px);
+    }
+}
+.blink{
+    animation: blink 1s step-start infinite;
+}
+@keyframes blink{
+    50%{
+        opacity: 0;
+    }
+    
+}
 /* Animination on scroll*/
 .animation-on-scrool{
     animation: appear linear;
