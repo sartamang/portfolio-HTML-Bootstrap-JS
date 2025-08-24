@@ -6,6 +6,7 @@
 }
 .hero > .head{
     color: var(--color); 
+    background: url(../photos/circle-scatter-haikei.svg);
 }
 .hero > .head > h1{
     font-weight: bold; 

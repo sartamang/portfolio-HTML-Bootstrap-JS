@@ -132,8 +132,31 @@ form > .btn-design:hover{
     border-bottom-right-radius: 0.5rem;
     box-shadow: 4px 4px var(--border-color);
 }
+/* Animination on scroll*/
+.animation-on-scrool{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+        clip-path: inset(100% 100% 0 0);
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+        clip-path: inset(0 0 0 0);
+    } 
+}
 /*hero-content*/
-
+.hero-content{
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' viewBox='0 0 2000 2000'%3E%3Cg%3E%3Cg fill='%23c7b7fc' id='star' transform='matrix(1,0,0,1,0,100)'%3E%3Cpath d='M 646.6480456327508 590.782123486941 C 965.083798658869 821.9273731602309 965.083798658869 821.9273731602309 2000 0 C 965.083798658869 821.9273731602309 965.083798658869 821.9273731602309 1349.8603342331357 1300.9776523555522 C 965.083798658869 821.9273731602309 965.083798658869 821.9273731602309 0 2000 C 965.083798658869 821.9273731602309 965.083798658869 821.9273731602309 646.6480456327508 590.782123486941' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
 .hero-button{
     font-size:20px;
     font-weight: bold;
