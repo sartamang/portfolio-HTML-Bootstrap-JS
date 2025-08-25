@@ -24,6 +24,9 @@
     display: inline-block;
     animation:  bounce 2s ease-in infinite;
 }
+h4{
+    font-weight: bolder;
+}
 @keyframes bounce{
     0%, 50%, 100%{
         transform: translateY(0);

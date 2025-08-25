@@ -17,6 +17,9 @@
     
     width: auto;
 }
+h4{
+    font-weight: bolder;
+}
 /*animations*/
 .bounce1{
     display: inline-block;

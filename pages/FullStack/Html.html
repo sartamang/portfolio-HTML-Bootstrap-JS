@@ -125,26 +125,176 @@
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="100px" class="bounce1">
               HTML- Hyper Text Markup Language 
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="100px" class="bounce1">
-            <hr style="width: 600px; color: #000;">
+            <hr style="width: 50%; color: #000;">
             </center>
           </h1>    
         </div>
 
-      <div class="animation-on-scrool">
+      <!-- <div class="animation-on-scrool"> -->
         <div class="container h-auto p-5 mt-5  ">
           <div class="row">
-            <div class="col" style="margin-left: 10%;">
-              <pre>
-                content suru gara
-              </pre>
+            <div class="col-md-10" style="margin-left: 10%;">
+              <p>
+                HTML is the standard markup language for creating and structuring web pages. It utilises the sets of elements that instruct the browser on how to execute all the content (W3Schools, n.d). Every webpage relies on HTML alongside CSS and JavaScript. 
+                HTML is a static language, which means it does not provide interactive features on its own rather has to rely on CSS and JavaScript for styling and interactivity.
+              </p>
+              <hr style="color: #000;">
 
-              <div class="img1">
-                <img src="" alt="photo">
-              </div>
+              <p>
+                <h4>HTML Structure</h4>
+                This picture here shows the basic structure of HTML.
+                <img src="../../photos/Screenshot 2025-08-23 145652.png" alt="" class=" container rounded-3 mt-3 mx-auto">
+                <br><br>
+                <p>&lt;!DOCTYPE html&gt; => Defines the version of HTML</p>
+                <p>&lt;html&gt; => Root element of an HTML page</p>
+                <p>&lt;head&gt; => Contains information about the document</p>
+                <p>&lt;title&gt; => Sets the title of the page</p>
+                <p>&lt;body&gt; => Holds all the visible content</p>
+              </p>
+
+              <p>
+                <hr style="color: #000;">
+                <h4>History of HTML</h4>
+                According to W3Schools tutorial (n.d.), since the very early days, there have been multiple versions of HTML: <br>
+              <pre>Year    	Version</pre>
+              <hr style="width: 50%; color: rgb(51, 12, 193); height: 2px;">
+                <pre>1989   →    Tim Berners-Lee invented WWW</pre>
+                <pre>1991   →    Tim Berners-Lee invented HTML</pre>
+                <pre>1993   →    Dave Raggett drafted HTML+</pre>
+                <pre>1995   →    HTML Working Group defined HTML 2.0</pre>
+                <pre>1997   →    HTML 3.2</pre>
+                <pre>1999   →    HTML 4.01</pre>
+                <pre>2000   →    HTML 1.0</pre>
+                <pre>2008   →    WHATWG released the HTML 5 First Public Draft</pre>
+                <pre>2012   →    WHATWG introduced HTML 5 Living Standard</pre>
+                <pre>2014   →    HTML 5</pre>
+                <pre>2016   →    HTML 5.1</pre>
+                <pre>2017   →    HTML 5.1 (2nd Edition)</pre>
+                <pre>2017   →    HTML 5.2</pre>
+              </p>
+
+              <p>
+                <hr style="color: #000;">
+                <h4>Tags and Elements</h4>
+                Many get confused with elements and tags. Although they are similar, HTML elements and tags are not the same thing. If there is content in a tag, then it becomes the element. While tag is the keyword that is surrounded in angle brackets (&lt; &gt;), and informs the browser what kind of content to expect (GeeksforGeeks, n.d.).
+                Let’s look at some of the HTML tags:
+
+                <ol>
+                  <li><h5>Heading tag</h5></li>
+                  <p>
+                    There are a total of 6 headings. Each one has a different size, with h1 being the biggest one. 
+                    <img src="../../photos/heading.png" alt="">
+                  </p>
+                  <li><h5>Paragraph tag</h5></li>
+                  <p>
+                    In a paragraph tag, we can write a paragraph or long text. <br>
+                    The structure of this tag is &lt; p &gt; Paragraph &lt; /p &gt;
+                    <img src="../../photos/para.png" alt="">
+                  </p>
+                  <li><h5>Anchor tag</h5></li>
+                  <p>
+                    An anchor tag is used to create a hyperlink in a webpage. This allows the user to navigate from one page to another just by clicking on the link. <br><br>
+                    <center><img src="../../photos/anchor.png" alt=""></center>
+                  </p>
+                  <li><h5>Listing tag</h5></li>
+                  <p>
+                    HTML offers two types of listing, one is ordered and another is unordered. <br>
+                    The tag structure of an ordered list =>  &lt; ol &gt;  &lt; /ol &gt; <br>
+                    The tag structure of an unordered list => &lt; ul &gt;  &lt; /ul &gt; <br> <br>
+
+                    <center>
+                      <img src="../../photos/order.png" alt=""> &nbsp;
+                    <img src="../../photos/unorder.png" alt="">
+                    </center>
+                    <br>
+                    <p>
+                      There is one more, and that is the description list. But it is not often used much.
+                      <center><img src="../../photos/des.png" alt=""></center>
+                    </p>
+                  </p>
+                  <li><h5>Table tag</h5></li>
+                  <p>
+                    There is a tag named Table where we can create a table. All the data in the table should be inside this &lt;table&gt;  &lt;/table&gt; tag. Inside this, we use a different tag to insert the table data. <br><br>
+                    &lt; tr &gt;  &lt; /tr &gt; => This is a table row tag, it contains the data of one row. <br>
+                    &lt; th &gt;  &lt; /th &gt; => This is a table heading, this contains the heading of the table. <br>
+                    &lt; td &gt;  &lt; /td &gt; => this is table data, here all the data is inserted. <br>
+                    <center><img src="../../photos/table.png" alt=""></center>
+                  </p>
+                  <li><h5>Form tag</h5></li>
+                  <p>
+                    Form tag is used to create a form. All the things are written inside the &lt;form&gt;  &lt;/form&gt; tag. Here are some of the tags that are used inside the form: <br><br>
+                    &lt;label&gt;  &lt;/label&gt;=> This tag defines the label for an input element. <br>
+                    &lt;input&gt; => Using this tag, form controls for input are created. <br>
+                    The type of input matters a great deal, and there are many options available.
+                    <center><img src="../../photos/form.png" alt=""></center>
+                    <br>
+                    <p>
+                      Here are some of the types of input tag. <br>
+                      <img src="../../photos/type.png" alt="">
+                    </p>
+                  </p>
+                  <li><h5>Typo Graphing</h5></li>
+                  <p>
+                    Here are some of the other tags. There are also lot more too. <br>
+                    <center><img src="../../photos/typo.png" alt=""></center>
+                  </p>
+                </ol>
+              </p>
+
+              <p>
+                <hr style="color: #000;">
+                <h4>Advantages</h4>
+                The advantages of HTML are given below:
+                <ul>
+                  <li>
+                    Free and open
+                  </li>
+                  <li>
+                    Simple and easy to learn
+                  </li>
+                  <li>
+                    Lightweight 
+                  </li>
+                  <li>
+                    Supports multimedia
+                  </li>
+                  <li>
+                    Widely supported
+                  </li>
+                </ul>
+              </p>
+              <p>
+                <hr style="color: #000;">
+                <h4>Limitation</h4>
+                HTML is a super-easy and powerful tool for structuring webpages; however, it also comes with some limitations.
+                
+                <ul>
+                  <li>
+                    Not a programming language, meaning it cannot perform logic.
+                  </li>
+                  <li>
+                    Limited design control
+                  </li>
+                  <li>
+                    No database
+                  </li>
+                  <li>
+                    Security limitations
+                  </li>
+                  <li>
+                    Static in nature
+                  </li>
+                </ul>
+              </p>
+
+              <p>
+                <h4>Conclusion</h4>
+                HTML is the foundation of the webpage as it gives a webpage its structure.  Even though it cannot handle logic, styling or other things, without HTML, it will be hard to make a website. However, with the help of CSS and JavaScript, it becomes possible to create a full website with ease. Despite its limitations, HTML still remains the starting point for anyone learning web development or creating a website.  
+                              </p>
             </div>
           </div> 
         </div>
-      </div>
+      <!-- </div> -->
     </div>
   
 
