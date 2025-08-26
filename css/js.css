@@ -10,12 +10,16 @@
 }
 .hero > .head > h1{
     font-weight: bold; 
-    font-size: 55px;
+    font-size: 50px;
     padding-top: 25px;
 }
 .hero .container{
     
     width: auto;
+}
+h5{
+    color: purple;
+    font-weight: 600;
 }
 h4{
     font-weight: bolder;

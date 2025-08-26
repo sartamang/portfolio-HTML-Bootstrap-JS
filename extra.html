@@ -24,3 +24,34 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
+
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+          </head>
+          <body>
+            <form id="chat">
+    <input type="text" placeholder="Test Input">
+    <button type="submit">Send</button>
+  </form>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const form = document.getElementById('chat');
+      console.log('Form found:', form); // Debug: Check if form is found
+      if (form) {
+        form.addEventListener('submit', function(e) {
+          e.preventDefault(); // Prevent form submission and page reload
+          console.log('Submit button clicked!'); // Debug: Confirm click
+          alert('Thank you! This is a test alert.');
+        });
+      } else {
+        console.error('Error: Form with id="chat" not found');
+      }
+    });
+  </script>
+          </body>
+          </html>

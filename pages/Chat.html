@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/chat.css">
 
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
     <!-- Icons -->
     <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
@@ -146,7 +149,7 @@
                 <img src="../photos/chat.svg" alt="" style="width: 300px; margin-top: 10%;">
               </div> 
               <div class="col-md-6 shadow-sm rounded p-5 ">
-                <form action="" class="form">
+                <form id="contactForm" class="form" method="get" action="#">
                   <h1>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 bounce" style="width: 40px;">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 0 1 1.037-.443 48.282 48.282 0 0 0 5.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
@@ -163,17 +166,15 @@
                   </h1>
                   <div class="row">
                     <div class="col-md-6">
-                      <input type="text" placeholder="First Name">
+                      <input type="text" name="firstName" autocomplete="given-name" placeholder="First Name" required>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" placeholder="Last Name">
+                      <input type="text" name="lastName" autocomplete="family-name" placeholder="Last Name" required>
                     </div>
                   </div> <br>
-                  <input type="email" placeholder="Email *"> <br> <br>
-                  <textarea name="" id="" placeholder="Write Message"></textarea><br><br>
-                  <button>
-                    <a href="">Send</a>
-                  </button>
+                  <input type="email" name="email" autocomplete="email" placeholder="Email *" required> <br> <br>
+                  <textarea name="message" id="" autocomplete="off" placeholder="Write Message" required></textarea><br><br>
+                  <button type="submit"> Send </button>
                 </form>
               </div> 
             </div>
@@ -380,11 +381,21 @@
     <script>
     // scroll functions
     $(window).scroll(function(e) {
-    $('#move-top')[$(window).scrollTop() <= 150 ? 'addClass' : 'removeClass']('d-none');
+      $('#move-top')[$(window).scrollTop() <= 150 ? 'addClass' : 'removeClass']('d-none');
     })
 
     //chat
+    $(document).ready(function(){
+      $('#contactForm').on('submit', function (e){
+        e.preventDefault()
+        alert("Thank you! As this is not connected to a backend, your message won’t be sent to the owner.")
+
+        $(this).trigger('reset')
+      })
+    })
+    
     </script>
+
 
     <!-- Bootstrap js libraries -->
     <script 
