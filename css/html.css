@@ -17,13 +17,27 @@
     
     width: auto;
 }
+h5{
+    color: purple;
+    font-weight: 600;
+}
 h4{
     font-weight: bolder;
 }
-img{
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
+code{
+    padding: 3px;
+    box-shadow: 1px 1px 5px #9985f3;
+}
+@media (max-width: 500px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+    width: 100%;
+  }
+  td {
+    border: none;
+    padding: 8px 0;
+    text-align: left;
+  }
 }
 
 /*animations*/

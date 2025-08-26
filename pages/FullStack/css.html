@@ -130,21 +130,197 @@
         </h1>    
         </div>
 
-      <div class="animation-on-scrool">
+      <!-- <div class="animation-on-scrool"> -->
         <div class="container h-auto p-5 mt-5  ">
           <div class="row">
             <div class="col" style="margin-left: 10%;">
-              <pre>
-                content
-              </pre>
+              <p>
+                CSS is a language that tells the browser how things should be displayed in the browser screen or in data files. On its own, CSS cannot change the content written using HTML; however, CSS elevates the appearance of the content by making it eye-catching (W3Schools, 2025). <br> <br>
+                One thing to note about CSS is that it does not have a version, but rather has levels. Each new level is built on the previous one by refining its features and definition. Till now, there are 3 levels of CSS (World Wide Web Consortium, 2025). <br><br>
+                CSS1 => 1996 AD, the first version. <br>
+                CSS2 => 1998 AD added a new feature to the previous one. <br>
+                CSS3 => 2004 AD &#45; 2011 AD. <br> <br>
+                There is no CSS4 officially, but level 3 was updated and often referred to as CSS.
+              </p>
 
-              <div class="img1">
-                <img src="" alt="photo">
-              </div>
+              <p>
+                <hr style="color: #000;">
+                <h4>Core Concept</h4>
+                The core concepts are the principles that one needs to know before using CSS (GeeksforGeeks, 2025).
+
+                <ol>
+                  <li><h5>Selectors</h5></li>
+                  <p>
+                    We can select each div or an HTML element to apply the design. <br><br>
+
+                    <code>
+                      body{ <br>
+                        &nbsp;&nbsp;margin: 0px; <br>
+                        &nbsp;&nbsp;padding: 0px <br>
+                      } <br>
+                      .container{ <br>
+                        &nbsp;&nbsp;background: #000; <br>
+                        &nbsp;&nbsp;border-radius: 4px; <br>
+                      } <br>
+                    </code>
+                  </p>
+
+                  <li><h5>Properties</h5></li>
+                  <p>
+                    CSS provides a lot of properties through which we can change the font sizes, colour and many other things.
+                    <br><br>
+                    <code>
+                      font-size: 20px; <br>
+                      fonr-weight: bold; <br>
+                    </code>
+                  </p>
+
+                  <li><h5>Unit</h5></li>
+                  <p>
+                    Using the px, rem, em, vh, vw, and %, we can apply the length to a div or any particular HTML element.
+                    <br> <br>
+                    <code>
+                      background-color: rgb(8,8,8); <br>
+                      padding-left: 5px; <br>
+                      padding-top: 4rem; <br>
+                      box-shadow: 1em 1em 5em; <br>
+                    </code>
+                  </p>
+
+                  <li>Responsive design</li>
+                  <p>
+                    Media queries (@media) and flexible layouts (grid) are used to create the responsive design.
+                    <br><br>
+
+                    <code>
+                      @media (max-width: 768px){ <br>
+                        &nbsp;&nbsp;h1{ <br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;color: green; <br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;font-size: 30px; <br>
+                        &nbsp;&nbsp;} <br>
+                      } <br>
+                      <br>
+                      /*for mobile max-width is 480px*/ <br>
+                      @media (max-width: 480px){ <br>
+                        &nbsp;&nbsp;h1{ <br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;color: green; <br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;font-size: 20px; <br>
+                        &nbsp;&nbsp;} <br>
+                      } <br>
+                    </code>
+                  </p>
+
+                  <li><h5>Transition and Animation</h5></li>
+                  <p>
+                    Transition => To create a smooth change, esp. while applying the hover. <br><br>
+                    
+                    <code>
+                      img{ <br>
+                        &nbsp;&nbsp;transition: transform o.3s ease-in; <br>
+                      } <br>
+                      image:hover{ <br>
+                        &nbsp;&nbsp;transform: scale(1.5); <br>
+                      } <br><br>
+                    </code>
+
+
+                    Animation => @keyframe is used to apply animations like bounce, rotate, and slide. <br><br>
+
+                    <code>
+                      h1{ <br>
+                        &nbsp;&nbsp;animation: bounce 1s infinite; <br>
+                      } <br>
+                      @keyframe bounce{ <br>
+                        &nbsp;&nbsp;0%, 50%, 100%{ <br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;transform: translateY(0); <br>
+                        &nbsp;&nbsp;} <br>
+                        &nbsp;&nbsp;25%, 75%{ <br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;transform: translateY(10%); <br>
+                        &nbsp;&nbsp;} <br>
+                      }
+                    </code>
+                  </p>
+                </ol>
+              </p>
+              
+              <p>
+                <hr style="color: #000;">
+                <h4>Types</h4>
+                <p>
+                  There are in total 3 types of CSS through which we can apply it in HTML.
+                </p>
+                <ol>
+                  <li><h5>Inline CSS</h5></li>
+                  <p>
+                    In inline CSS, styles are applied directly to an individual HTML element using the &lt;style&gt; &lt;/style&gt; attribute. In terms of hierarchy, inline CSS holds more importance, hence gets implemented 1st and even overrides the internal and external CSS. <br><br>
+                    <code>
+                      &lt;h1 style= "font-size: 20px;"&gt; Sunderland University &lt;/h1&gt;
+                    </code>
+                  </p>
+
+                  <li><h5>Internal CSS</h5></li>
+                  <p>
+                    Internal CSS is applied when the user/developer doesn’t want to make a separate file for CSS and wants to complete the project in one file. This is best for a small project. Usually, this is written outside the body tag. <br><br>
+                    <code>
+                      &lt;style&gt; <br>
+                      &nbsp;&nbsp;h1{ <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;font-size: 20px; <br>
+                        &nbsp;&nbsp;} <br>
+                        &lt;/style&gt; <br>
+                    </code>
+                  </p>
+                    
+                    <li><h5>External CSS</h5></li>
+                  <p>
+                      External CSS is mostly recommended by many professional developers. The main feature it provides is clarity. All the CSS properties and rules are written in seperate files, so, need to be connected using the &lt;link&gt; tag. <br><br>
+                      ...... <br>
+                      <code>
+                        &lt;link rel = "stylesheet" href = "style.css"&gt; <br>
+                        &lt;body&gt;
+                        <br><br>
+                        &lt;/body&gt;
+                      </code>
+                  </p>
+                </ol>
+              </p>
+
+              <p>
+                <hr style="color: #000;">
+                <h4>Advantage</h4>
+                <p>
+                  The advantages of CSS are:
+                  <ul>
+                    <li>Saves time</li>
+                    <li>Offline browsing</li>
+                    <li>Easy maintenance</li>
+                  </ul>
+                </p>
+              </p>
+
+              <p>
+                <hr style="color: #000;">
+                <h4>Disadvantage </h4>
+                <p>
+                  Despite providing all these designs to the HTML, there are still some limitations it has. They are:
+                  <ul>
+                    <li>Complexity in larger projects.</li>
+                    <li>Limited dynamic feature.</li>
+                  </ul>
+                </p>
+              </p>
+
+              <p>
+                <hr style="color: #000;">
+                <h4>Conslusion </h4>
+                <p>
+                  CSS is used for styling webpages and files, but unlike programming languages, it does not include any logic, just as HTML. One must understand and learn the core concept initially in order to properly utilise CSS. Each of its types has its own advantages and use cases, where one type might be fast while another one might give us better maintainability. Without CSS, modern websites would not be any attractive as they are at present.
+                </p>
+              </p>
+
             </div>
           </div>
         </div>
-      </div>
+      <!-- </div> -->
     </div>
   
 

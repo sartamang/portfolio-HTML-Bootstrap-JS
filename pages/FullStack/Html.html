@@ -142,8 +142,18 @@
 
               <p>
                 <h4>HTML Structure</h4>
-                This picture here shows the basic structure of HTML.
-                <img src="../../photos/Screenshot 2025-08-23 145652.png" alt="" class=" container rounded-3 mt-3 mx-auto">
+                This picture here shows the basic structure of HTML. <br><br>
+                <code>&lt;!DOCTYPE html&gt;</code> <br>
+                <code>&lt;html lang="en"&gt;</code> <br>
+                <code>&lt;head&gt;</code> <br>
+                <code>&nbsp; &nbsp;&nbsp; &nbsp;&lt;meta charset="UTF-8"&gt;</code> <br>
+                <code>&nbsp; &nbsp;&nbsp; &nbsp;&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code> <br>
+                <code>&nbsp; &nbsp;&nbsp; &nbsp;&lt;title&gt;Document&lt;/title&gt;</code> <br>
+                <code>&lt;/head&gt;</code> <br>
+                <code>&lt;body&gt;</code><br> <br>
+                <code>&lt;/body&gt;</code><br>
+                <code>&lt;/html&gt;</code><br>
+
                 <br><br>
                 <p>&lt;!DOCTYPE html&gt; => Defines the version of HTML</p>
                 <p>&lt;html&gt; => Root element of an HTML page</p>
@@ -182,19 +192,36 @@
                 <ol>
                   <li><h5>Heading tag</h5></li>
                   <p>
-                    There are a total of 6 headings. Each one has a different size, with h1 being the biggest one. 
-                    <img src="../../photos/heading.png" alt="">
+                    There are a total of 6 headings. Each one has a different size, with h1 being the biggest one. <br><br>
+                    <code>&lt; h1 &gt; SnderLand &lt; /h1 &gt; </code><br>
+                    <code>&lt; h2 &gt; SnderLand &lt; /h2 &gt; </code><br>
+                    <code>&lt; h3 &gt; SnderLand &lt; /h3 &gt; </code><br>
+                    <code>&lt; h4 &gt; SnderLand &lt; /h4 &gt; </code><br>
+                    <code>&lt; h5 &gt; SnderLand &lt; /h5 &gt; </code><br>
+                    <code>&lt; h6 &gt; SnderLand &lt; /h6 &gt; </code>
                   </p>
                   <li><h5>Paragraph tag</h5></li>
                   <p>
                     In a paragraph tag, we can write a paragraph or long text. <br>
-                    The structure of this tag is &lt; p &gt; Paragraph &lt; /p &gt;
-                    <img src="../../photos/para.png" alt="">
+                    The structure of this tag is &lt; p &gt; Paragraph &lt; /p &gt; <br><br>
+
+                    <span style="font-weight: 500;">Example:</span><br>
+                    <code>
+                      &lt; p &gt; <br>
+
+                      It's not only writers who can benefit from this free online tool. If you're a programmer who's working on a project where blocks of text are needed, this tool can be a great way to get that. It's a good way to test your programming and that the tool being created is working well. <br><br>
+
+                      Above are a few examples of how the random paragraph generator can be beneficial. The best way to see if this random paragraph picker will be useful for your intended purposes is to give it a try. Generate a number of paragraphs to see if they are beneficial to your current project. <br>
+
+                      &lt; /p &gt;
+                    </code>
                   </p>
                   <li><h5>Anchor tag</h5></li>
                   <p>
                     An anchor tag is used to create a hyperlink in a webpage. This allows the user to navigate from one page to another just by clicking on the link. <br><br>
-                    <center><img src="../../photos/anchor.png" alt=""></center>
+
+                    <code>&lt;a href=" https://www.sunderland.ac.uk/ "&gt; Sunderland &lt;/a&gt; </code>
+                    
                   </p>
                   <li><h5>Listing tag</h5></li>
                   <p>
@@ -202,41 +229,171 @@
                     The tag structure of an ordered list =>  &lt; ol &gt;  &lt; /ol &gt; <br>
                     The tag structure of an unordered list => &lt; ul &gt;  &lt; /ul &gt; <br> <br>
 
-                    <center>
-                      <img src="../../photos/order.png" alt=""> &nbsp;
-                    <img src="../../photos/unorder.png" alt="">
-                    </center>
-                    <br>
+                    <span style="font-weight: 500;">Ordered list</span> <br>
+                    <code>
+                      &lt; ol &gt; <br>
+                      &nbsp; &nbsp; &lt; li &gt; Sunderland &lt; /li &gt; <br>
+                      &nbsp; &nbsp; &lt; li &gt; Sunderland &lt; /li &gt; <br>
+                      &nbsp; &nbsp; &lt; li &gt; Sunderland &lt; /li &gt; <br>
+                      &lt; /ol &gt; 
+                    </code>
+                    
+                    <br><br>
+
+                    <span style="font-weight: 500;">Unordered list</span> <br>
+                    <code>
+                      &lt; ul &gt; <br>
+                      &nbsp; &nbsp; &lt; li &gt; Sunderland &lt; /li &gt; <br>
+                      &nbsp; &nbsp; &lt; li &gt; Sunderland &lt; /li &gt; <br>
+                      &nbsp; &nbsp; &lt; li &gt; Sunderland &lt; /li &gt; <br>
+                      &lt; /ul &gt;
+                    </code>
+                    <br><br>
+
                     <p>
-                      There is one more, and that is the description list. But it is not often used much.
-                      <center><img src="../../photos/des.png" alt=""></center>
+                      There is one more, and that is the description list. But it is not often used much. <br>
+                      <span style="font-weight: 500;">Description list</span> <br>
+                      <code>
+                        &lt; dl &gt; <br>
+                        &nbsp; &nbsp; &lt; dt &gt; Sunderland &lt; /dt &gt; <br>
+                        &nbsp; &nbsp; &lt; dd &gt; This is Sunderland University&lt; /dd &gt; <br>
+                        &lt; /dl &gt;
+                      </code>  
                     </p>
                   </p>
                   <li><h5>Table tag</h5></li>
                   <p>
                     There is a tag named Table where we can create a table. All the data in the table should be inside this &lt;table&gt;  &lt;/table&gt; tag. Inside this, we use a different tag to insert the table data. <br><br>
+
                     &lt; tr &gt;  &lt; /tr &gt; => This is a table row tag, it contains the data of one row. <br>
                     &lt; th &gt;  &lt; /th &gt; => This is a table heading, this contains the heading of the table. <br>
-                    &lt; td &gt;  &lt; /td &gt; => this is table data, here all the data is inserted. <br>
-                    <center><img src="../../photos/table.png" alt=""></center>
+                    &lt; td &gt;  &lt; /td &gt; => this is table data, here all the data is inserted. <br> <br>
+
+                    
+                    <span style="font-weight: 500;">Example:</span> <br><br>
+                    <code>
+                      &lt;table border="1" cellpadding="10" cellspacing="0" width="500px"&gt; <br>
+                         &nbsp; &lt;tr bgcolor="#f6cefc"&gt; <br>
+                           &nbsp; &nbsp; &nbsp; &lt;th&gt; S.N. &lt;/th&gt;  <br>
+                           &nbsp; &nbsp; &nbsp; &lt;th&gt; Name &lt;/th&gt; <br>
+                           &nbsp; &nbsp; &nbsp; &lt;th&gt; Address &lt;/th&gt; <br>
+                           &nbsp; &nbsp; &nbsp; &lt;th&gt; Contact &lt;/th&gt; <br>
+                         &nbsp; &lt;/tr&gt; <br>
+                         &nbsp; &lt;tr&gt; <br>
+                           &nbsp; &nbsp; &nbsp; &lt;td&gt;1&lt;/td&gt; <br>
+                           &nbsp; &nbsp; &nbsp; &lt;td colspan="2" &gt; Saroj Tamang &lt;/td&gt; <br>
+                           &nbsp; &nbsp; &nbsp; &lt;td&gt; Chitrasari &lt;/td&gt; <br>
+                           &nbsp; &nbsp; &nbsp; &lt;td&gt; 9702299224 &lt;/td&gt;<br>
+                         &nbsp; &lt;/tr&gt; <br>
+                         &nbsp; &lt;tr&gt; <br>
+                           &nbsp; &nbsp; &nbsp; &lt;td&gt;2&lt;/td&gt; <br>
+                           &nbsp; &nbsp; &nbsp; &lt;td&gt; Rijan Mahato &lt;/td&gt; <br>
+                           &nbsp; &nbsp; &nbsp; &lt;td rowspan="2" &gt; Gaidakot &lt;/td&gt; <br>
+                           &nbsp; &nbsp; &nbsp; &lt;td&gt; 9833423233 &lt;/td&gt; <br>
+                         &nbsp; &lt;/tr&gt; <br>
+                         &nbsp; &lt;tr&gt; <br>
+                           &nbsp; &nbsp; &nbsp; &lt;td&gt;3&lt;/td&gt; <br>
+                           &nbsp; &nbsp; &nbsp; &lt;td&gt; Feroj Tamang &lt;/td&gt; <br>
+                           &nbsp; &nbsp; &nbsp; &lt;td&gt; Bojhad &lt;/td&gt; <br>
+                           &nbsp; &nbsp; &nbsp; &lt;td&gt; 9854725743 &lt;/td&gt; <br>
+                         &nbsp; &lt;/tr&gt; <br>
+                      &lt;/table&gt; <br>
+                    </code> 
                   </p>
+
                   <li><h5>Form tag</h5></li>
                   <p>
                     Form tag is used to create a form. All the things are written inside the &lt;form&gt;  &lt;/form&gt; tag. Here are some of the tags that are used inside the form: <br><br>
+
                     &lt;label&gt;  &lt;/label&gt;=> This tag defines the label for an input element. <br>
                     &lt;input&gt; => Using this tag, form controls for input are created. <br>
-                    The type of input matters a great deal, and there are many options available.
-                    <center><img src="../../photos/form.png" alt=""></center>
+                    The type of input matters a great deal, and there are many options available. <br><br>
+
+                  <code>  
+                    &lt;form action=""&gt; <br>
+                      &nbsp; &nbsp;  &lt;label for=""&gt;Name:&lt;/label&gt; <br>
+                      &nbsp; &nbsp;  &lt;input type="text"&gt; <br> <br>
+
+                      &nbsp; &nbsp;  &lt;label for=""&gt;Address:&lt;/label&gt; <br>
+                      &nbsp; &nbsp;  &lt;input type="text"&gt; <br> <br>
+
+                      &nbsp; &nbsp;  &lt;label for=""&gt;Contact No.&lt;/label&gt; <br>
+                      &nbsp; &nbsp;  &lt;input type="Number"&gt; <br> <br>
+
+                      &nbsp; &nbsp;  &lt;input type="submit"&gt; <br>
+                    &lt;/form&gt; <br>
                     <br>
+                  </code>
                     <p>
-                      Here are some of the types of input tag. <br>
-                      <img src="../../photos/type.png" alt="">
+                      Here are some of the types of input tag. <br> <br>
+                    <code>  
+                      &lt;input type="number" step="10" min="100"&gt; <br>  
+                      &lt;input type="color"&gt; <br>
+                      &lt;input type="date"&gt; <br> 
+                      &lt;input type="time"&gt; <br> 
+                      &lt;input type="datetime-local"&gt; <br> 
+                      &lt;input type="month"&gt; <br>
+                      &lt;input type="week"&gt; <br> 
+                      &lt;input type="file"&gt; <br> 
+                      &lt;input type="range"&gt; <br> 
+                      &lt;input type="hidden"&gt; <br>
+                      &lt;input type="url"&gt; <br>
+                      &lt;input type="search"&gt; <br>
+                      &lt;input type="tel"&gt; <br>
+                    </code>
                     </p>
                   </p>
                   <li><h5>Typo Graphing</h5></li>
                   <p>
-                    Here are some of the other tags. There are also lot more too. <br>
-                    <center><img src="../../photos/typo.png" alt=""></center>
+                    Here are some of the other tags. There are also lot more too. <br> <br>
+                   
+                    <table>
+                      <tr>
+                        <th>Tags</th>
+                        <th>Description</th>
+                      </tr>
+                      <tr>
+                        <td><code>&lt;b&gt; Sunderland University &lt;/b&gt; </code></td>
+                        <td>Bold</td>
+                      </tr>
+                      <tr>
+                        <td><code>&lt;strong&gt; Sunderland University &lt;/strong&gt;&nbsp; </code></td>
+                        <td>Strong</td>
+                      </tr>
+                      <tr>
+                        <td><code>&lt;i&gt; Sunderland University &lt;/i&gt;</code></td>
+                        <td>Italic</td>
+                      </tr>
+                      <tr>
+                        <td><code>&lt;em&gt; Sunderland University &lt;/em&gt; </code></td>
+                        <td>Emphasize</td>
+                      </tr>
+                      <tr>
+                        <td><code> &lt;u&gt; Sunderland University &lt;/u&gt; </code></td>
+                        <td>Underline</td>
+                      </tr>
+                      <tr>
+                        <td><code> &lt;ins&gt;Sunderland University&lt;/ins&gt; </code></td>
+                        <td>Inserted</td>
+                      </tr>
+                      <tr>
+                        <td> <code>&lt;del&gt; Sunderland University &lt;/del&gt;</code></td>
+                        <td>Delete</td>
+                      </tr>
+                      <tr>
+                        <td><code>&lt;mark&gt; Sunderland University &lt;/mark&gt;</code></td>
+                        <td> Mark</td>
+                      </tr>
+                      <tr>
+                        <td><code> Sunderland &lt;sup&gt; University &lt;/sup&gt; </code></td>
+                        <td>Superscript</td>
+                      </tr>
+                      <tr>
+                        <td><code> Sunderland &lt;sub&gt; University &lt;/sub&gt; </code></td>
+                        <td>Subscript </td>
+                      </tr>
+                    </table>
+                   
                   </p>
                 </ol>
               </p>
@@ -290,7 +447,7 @@
               <p>
                 <h4>Conclusion</h4>
                 HTML is the foundation of the webpage as it gives a webpage its structure.  Even though it cannot handle logic, styling or other things, without HTML, it will be hard to make a website. However, with the help of CSS and JavaScript, it becomes possible to create a full website with ease. Despite its limitations, HTML still remains the starting point for anyone learning web development or creating a website.  
-                              </p>
+              </p>
             </div>
           </div> 
         </div>

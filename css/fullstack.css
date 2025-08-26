@@ -20,6 +20,11 @@
 h4{
     font-weight: bolder;
 }
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
 /*animations*/
 .bounce1{
     display: inline-block;

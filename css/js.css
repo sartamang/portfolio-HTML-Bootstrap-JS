@@ -17,6 +17,13 @@
     
     width: auto;
 }
+h4{
+    font-weight: bolder;
+}
+code{
+    padding: 3px;
+    box-shadow: 1px 1px 5px #9985f3;
+}
 /*animations*/
 .bounce1{
     display: inline-block;
