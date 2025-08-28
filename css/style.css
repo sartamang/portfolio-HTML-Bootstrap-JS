@@ -136,7 +136,7 @@ form > .btn-design:hover{
 /*animations*/ 
 .hero .row .slide{
     
-    animation: slideinleft 1s ease-in 0.8s forwards;
+    animation: slideinleft 0.8s ease-in 0.8s forwards;
 }
 @keyframes slideinleft{
     from{
@@ -149,7 +149,7 @@ form > .btn-design:hover{
     }
 }
 .slideT{
-    animation: slideintop 1s ease-in 0.8s forwards;
+    animation: slideintop 0.9s ease-in 0.8s forwards;
 }
 @keyframes slideintop{
     from{
@@ -180,11 +180,17 @@ form > .btn-design:hover{
     }
 }
 .blink{
-    animation: blink 1s step-start infinite;
+    animation: blink 1s ease-in-out infinite;
 }
 @keyframes blink{
+    0%{
+        opacity: 1;
+    }
     50%{
         opacity: 0;
+    }
+    100%{
+        opacity: 1;
     }
     
 }
