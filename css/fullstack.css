@@ -45,3 +45,6 @@ img{
         transform: translateY(-5px);
     }
 }
+.head img{
+    filter: drop-shadow(0 5px 2px #9985f3);
+}
